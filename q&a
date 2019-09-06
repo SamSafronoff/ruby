@@ -1,0 +1,19 @@
+#This will take the 4 answers provided and output a sentence with the answers.
+
+print "What's your first name?"
+answer = gets.chomp
+answer2 = answer.capitalize!
+
+print "What's your last name?"
+answer = gets.chomp
+answer3 = answer.capitalize!
+
+print "What's your city?"
+answer = gets.chomp
+answer4 = answer.capitalize!
+
+print "What state are you from?"
+answer = gets.chomp
+answer5 = answer.upcase!
+
+print "You are #{answer2} #{answer3} from #{answer4} #{answer5}."
